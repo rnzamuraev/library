@@ -1,6 +1,9 @@
 import $ from "./lib/lib";
 
 $("button").on("click", function () {
-  $("#active").toggleClass("active");
+  $(".img").addAttribute("alt", "photo");
+});
+$("#active").on("click", function () {
+  $(".img").removeAttribute("alt");
 });
 // $(".active").click(sayHello);
