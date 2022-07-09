@@ -5,5 +5,8 @@ import "./modules/handlers";
 import "./modules/attribute";
 import "./modules/actions";
 import "./modules/effects";
+import "./modules/calcScroll";
+import "./components/dropdown";
+import "./components/modal";
 
 export default $;
